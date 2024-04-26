@@ -8,7 +8,7 @@
 //Player 1. Zach Kirk
 //Player 2. Marcus Campos-Jones 
 /*
-//checkpoint one
+//checkpoint one Marcus Campos-Jones
 async function startProgram() {
 	setMainLed({ r: 200, g:55, b: 0 });
 	await roll((getHeading() + 0), 60, 3);	
@@ -18,12 +18,28 @@ async function startProgram() {
 	await roll((getHeading() + 270), 50, 2);
 }
 */
-//player 1 code Marcus Campos-Jones
-
 /*
-// checkpoint two
+// checkpoint two Zach Kirk
 async function startProgram() {
 	await roll((getHeading() + 90), 40, 2);
 	await delay(1);
 	await roll((getHeading() + 90), 60, 2);
+	
+}
+checkpoint three marcus campos jones 
+*/
+/*
+async function startProgram() {
+	setMainLed({ r: 200, g:55, b: 0 });
+	await roll((getHeading() + 90), 60, 3);	
+	await delay(1);
+*/
+
+
+async function startProgram() {
+
+	
+}
+	
+	
 	
