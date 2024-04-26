@@ -26,20 +26,35 @@ async function startProgram() {
 	await roll((getHeading() + 90), 60, 2);
 	
 }
-checkpoint three marcus campos jones 
+checkpoint three marcus campos jones
 */
 /*
 async function startProgram() {
-	setMainLed({ r: 200, g:55, b: 0 });
+	setMainLed({ r: 100, g:55, b: 100 });
 	await roll((getHeading() + 90), 60, 3);	
 	await delay(1);
 */
 
-
+/*
+// checkpoint 4 Zack 
 async function startProgram() {
+	setMainLed({ r: 0, g:0, b: 255 }); 
+	await Sound.Game.DigitalDelay.play(true)
+	await roll((getHeading() - 90), 70, 2);
+	await delay(1); 
+    
+}
+	
 
 	
-}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
