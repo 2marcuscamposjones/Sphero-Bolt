@@ -21,6 +21,7 @@ async function startProgram() {
 /*
 // checkpoint two Zach Kirk
 async function startProgram() {
+	setMainLed({ r: 50, g:55, b: 150 });
 	await roll((getHeading() + 90), 40, 2);
 	await delay(1);
 	await roll((getHeading() + 90), 60, 2);
@@ -46,20 +47,16 @@ async function startProgram() {
 }
 // checkpoint 5 marcus campos red
 */
+/*
 async function startProgram() {
 	setMainLed({ r: 200, g:25, b:30 });
 	await roll((getHeading() + -140), 60, 3);	
 	await delay(1);
 	
 }
-	
-	
-	
-	
-	
-	
-	
-	
+*/
+
+}
 	
 	
 	
