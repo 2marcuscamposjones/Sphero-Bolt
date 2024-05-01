@@ -11,8 +11,9 @@ async function startProgram() {
 	await scrollMatrixText('start!', { r: 66, g: 56, b: 255 }, 30, true)
 
 	// programmer:        -  Blue LED checkpoint Commit - date:
-
-
+	setMainLed({ r: 0, g:0, b: 255 });
+	await roll((getHeading() + 0), 60, 3);	
+	await delay(1);
 
 	// programmer:        -  Sound one checkpoint Commit - date:
 
