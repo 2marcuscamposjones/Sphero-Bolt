@@ -29,8 +29,13 @@ async function startProgram() {
 	await delay(2);
 	await roll((getHeading() + 45), 40, 2);
 	// programmer:        -  Sound two checkpoint Commit - date:
-
-
+	await roll((getHeading() - 60), 30, 1);
+    await delay(2);
+    await roll((getHeading() - 30), 30, 2);
+    await delay(2);
+	await roll((getHeading() + 90), 30, 2);
+    await delay(2);
+	await Sound.Game.DigitalDelay.play(true);
 
 	// programmer:        -  green checkpoint Commit - date:
 
