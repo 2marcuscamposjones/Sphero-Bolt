@@ -6,46 +6,42 @@
 // Program URL: https://edu.sphero.com/program/16788348/edit
 
 async function startProgram() {
-	// Programmer: zack Kirk - Start Text & audio checkpoint  Commit - Date:4/30
+	// Programmer: Zach Kirk- Start Text & audio Checkpoint Commit - Date: 4/30
 	await speak("start",true)
-	await scrollMatrixText('start!', { r: 66, g: 56, b: 255 }, 30, true)
-
-
-	// programmer: Marcus Campos-Jones -  Blue LED checkpoint Commit - date:5/1
-	setMainLed({ r: 0, g:0, b: 255 });
+	await scrollMatrixText('start!', { r: 200, g: 55, b: 0 }, 30, true)
+	
+	// Programmer:  Marcus Campos Jones      - Blue LED Checkpoint Commit - Date: 5/1
 	await roll((getHeading() + 0), 60, 3);	
 	await delay(1);
+	
 
-
-	// programmer:  Zack Kirk-Sound one checkpoint Commit-date:5/1
-	setMainLed({ r: 0, g:255, b: 0 });
+    // Programmer: Zach Kirk      - Sound One Checkpoint Commit - Date: 5/1
+    setMainLed({ r: 0, g:0, b: 255 });
 	await roll((getHeading() + 90), 60, 2);
-	await speak("Among Us",true)
-
-
-	// programmer:   marcus campos-Red LED checkpoint Commit-date:5/1
-	setMainLed({ r: 255, g:0, b: 0 });
+	await speak("Pikachu",true)
+	await delay(2);
+ 
+    // Programmer:  Marcus Campos Jones      - Red LED Checkpoint Commit - Date: 5/1
 	await roll((getHeading() + 90), 50, 2);
 	await delay(2);
 	await roll((getHeading() + 45), 40, 2);
-	// programmer:        -  Sound two checkpoint Commit - date:
-	await roll((getHeading() - 60), 30, 1);
+	setMainLed({ r: 255, g:0, b: 0 });
+	await delay(2);
+    // Programmer:        - Sound Two Checkpoint Commit - Date: 
+    
+	await roll((getHeading() + 45), 30, 1);
     await delay(2);
-    await roll((getHeading() - 30), 30, 2);
+    await roll((getHeading() - 90), 30, 2);
     await delay(2);
-	await roll((getHeading() + 90), 30, 2);
+	await roll((getHeading() + 70), 30, 2);
     await delay(2);
 	await Sound.Game.DigitalDelay.play(true);
-
-	// programmer:        -  green checkpoint Commit - date:
-
-
-
-	// programmer:        -  Purple Led & Sound three checkpoint Commit - date:
+    // Programmer:        - Green LED Checkpoint Commit - Date: 
 
 
 
-	// programmer:        -  Finsh text & audio commit checkpoint Commit - date:
+    // Programmer:        - Purple LED & Sound Three Checkpoint Commit - Date: 
 
 
-}
+
+    // Programmer:        - Finish Text & Audio Checkpoint Commit - Date: 
